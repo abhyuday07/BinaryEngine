@@ -1,0 +1,119 @@
+Repo:	alien-arena_7.66+dfsg-3_mips64el.deb
+process for analysisFEATURE *** [fn, 1g, 2g, 3g]
+library_name/version: alien-arena-server__7.66+dfsg	 score: 18022.0	 fn:1920	 1g: 1572	 2g: 12	 3g: 5
+library_name/version: alien-arena__7.66+dfsg	 score: 18022.0	 fn:1920	 1g: 1572	 2g: 12	 3g: 5
+library_name/version: anbox__0.0~git20190124	 score: 875.0	 fn:92	 1g: 93	 2g: 0	 3g: 0
+FEATURE *** string arrays
+library_name/version: exult__1.2string_arrays	 average score: 0.6731006618008836	 ratio: 38/5344
+library_name/version: doris__5.0.3~beta+dfsgstring_arrays	 average score: 0.6570851721915218	 ratio: 89/5344
+library_name/version: assaultcube__1.1.0.4+dfsg2string_arrays	 average score: 0.7009241032348984	 ratio: 27/5344
+library_name/version: assaultcube__1.2.0.2.1string_arrays	 average score: 0.7030747440198578	 ratio: 37/5344
+library_name/version: exult-studio__1.2string_arrays	 average score: 0.6731006618008836	 ratio: 38/5344
+library_name/version: doris__4.06~beta2+dfsgstring_arrays	 average score: 0.6570851721915218	 ratio: 89/5344
+FEATURE *** const_num_array	
+library_name/version: alien-arena-server__7.66+dfsgconst_num_arrays	 matched_count: 35.316414126299954	 total_count: 35.316414126299954
+library_name/version: alien-arena__7.66+dfsgconst_num_arrays	 matched_count: 35.316414126299954	 total_count: 35.316414126299954
+FEATURE *** const_enum_array	
+RESULT
+ 	 alien-arena_7.66+dfsg-3_mips64el.deb
+string: alien-arena-server__7.66+dfsg, score: 18022.000000
+string_arrays: no found in DB ..
+const_num_arrays: alien-arena-server__7.66+dfsgconst_num_arrays, ratio: 1.000000
+const_enum_arrays: no found in DB .. 
+
+Repo:	alien-arena_7.66+dfsg-2+b2_armel.deb
+process for analysisFEATURE *** [fn, 1g, 2g, 3g]
+library_name/version: alien-arena-server__7.66+dfsg	 score: 3450.0	 fn:206	 1g: 1569	 2g: 12	 3g: 5
+library_name/version: alien-arena__7.66+dfsg	 score: 3450.0	 fn:206	 1g: 1569	 2g: 12	 3g: 5
+library_name/version: anbox__0.0~git20181014	 score: 874.0	 fn:92	 1g: 92	 2g: 0	 3g: 0
+FEATURE *** string arrays
+library_name/version: exult__1.2string_arrays	 average score: 0.6675998716353304	 ratio: 42/5117
+library_name/version: doris__5.0.3~beta+dfsgstring_arrays	 average score: 0.6622814575048647	 ratio: 153/5117
+library_name/version: assaultcube__1.1.0.4+dfsg2string_arrays	 average score: 0.7015594785521643	 ratio: 28/5117
+library_name/version: assaultcube__1.2.0.2.1string_arrays	 average score: 0.7034742673887462	 ratio: 34/5117
+library_name/version: exult-studio__1.2string_arrays	 average score: 0.6675998716353304	 ratio: 42/5117
+library_name/version: doris__4.06~beta2+dfsgstring_arrays	 average score: 0.6622814575048647	 ratio: 153/5117
+FEATURE *** const_num_array	
+library_name/version: alien-arena-server__7.66+dfsgconst_num_arrays	 matched_count: 35.316414126299954	 total_count: 35.316414126299954
+library_name/version: alien-arena__7.66+dfsgconst_num_arrays	 matched_count: 35.316414126299954	 total_count: 35.316414126299954
+FEATURE *** const_enum_array	
+RESULT
+ 	 alien-arena_7.66+dfsg-2+b2_armel.deb
+string: alien-arena-server__7.66+dfsg, score: 3450.000000
+string_arrays: no found in DB ..
+const_num_arrays: alien-arena-server__7.66+dfsgconst_num_arrays, ratio: 1.000000
+const_enum_arrays: no found in DB .. 
+
+Repo:	alien-arena_7.66+dfsg-3_ppc64el.deb
+process for analysisFEATURE *** [fn, 1g, 2g, 3g]
+library_name/version: alien-arena-server__7.66+dfsg	 score: 2931.5	 fn:145	 1g: 1569	 2g: 12	 3g: 5
+library_name/version: alien-arena__7.66+dfsg	 score: 2931.5	 fn:145	 1g: 1569	 2g: 12	 3g: 5
+library_name/version: anbox__0.0~git20181014	 score: 866.5	 fn:91	 1g: 93	 2g: 0	 3g: 0
+FEATURE *** string arrays
+library_name/version: exult__1.2string_arrays	 average score: 0.6716110648029402	 ratio: 44/5322
+library_name/version: doris__5.0.3~beta+dfsgstring_arrays	 average score: 0.6613208435788351	 ratio: 118/5322
+library_name/version: assaultcube__1.1.0.4+dfsg2string_arrays	 average score: 0.7117779225318934	 ratio: 25/5322
+library_name/version: assaultcube__1.2.0.2.1string_arrays	 average score: 0.7108537279531021	 ratio: 37/5322
+library_name/version: exult-studio__1.2string_arrays	 average score: 0.6716110648029402	 ratio: 44/5322
+library_name/version: doris__4.06~beta2+dfsgstring_arrays	 average score: 0.6613208435788351	 ratio: 118/5322
+FEATURE *** const_num_array	
+library_name/version: dhewm3-doom3__1.4.1+dfsgconst_num_arrays	 matched_count: 7.0	 total_count: 67.14720492494223
+library_name/version: alien-arena-server__7.66+dfsgconst_num_arrays	 matched_count: 35.316414126299954	 total_count: 35.316414126299954
+library_name/version: dhewm3__1.4.1+dfsgconst_num_arrays	 matched_count: 7.0	 total_count: 67.14720492494223
+library_name/version: alien-arena__7.66+dfsgconst_num_arrays	 matched_count: 35.316414126299954	 total_count: 35.316414126299954
+library_name/version: dhewm3-d3xp__1.4.1+dfsgconst_num_arrays	 matched_count: 7.0	 total_count: 67.14720492494223
+FEATURE *** const_enum_array	
+RESULT
+ 	 alien-arena_7.66+dfsg-3_ppc64el.deb
+string: alien-arena-server__7.66+dfsg, score: 2931.500000
+string_arrays: no found in DB ..
+const_num_arrays: alien-arena-server__7.66+dfsgconst_num_arrays, ratio: 1.000000
+const_enum_arrays: no found in DB .. 
+
+Repo:	alien-arena_7.66+dfsg-3_mips64el.deb
+process for analysisFEATURE *** [fn, 1g, 2g, 3g]
+library_name/version: alien-arena__7.66+dfsg	 score: 18022.0	 fn:1920	 1g: 1572	 2g: 12	 3g: 5
+library_name/version: alien-arena-server__7.66+dfsg	 score: 18022.0	 fn:1920	 1g: 1572	 2g: 12	 3g: 5
+library_name/version: anbox__0.0~git20181014	 score: 875.0	 fn:92	 1g: 93	 2g: 0	 3g: 0
+FEATURE *** string arrays
+library_name/version: exult__1.2string_arrays	 average score: 0.6731006618008836	 ratio: 38/5344
+library_name/version: doris__5.0.3~beta+dfsgstring_arrays	 average score: 0.6570851721915218	 ratio: 89/5344
+library_name/version: assaultcube__1.1.0.4+dfsg2string_arrays	 average score: 0.7009241032348984	 ratio: 27/5344
+library_name/version: assaultcube__1.2.0.2.1string_arrays	 average score: 0.7030747440198578	 ratio: 37/5344
+library_name/version: exult-studio__1.2string_arrays	 average score: 0.6731006618008836	 ratio: 38/5344
+library_name/version: doris__4.06~beta2+dfsgstring_arrays	 average score: 0.6570851721915218	 ratio: 89/5344
+FEATURE *** const_num_array	
+library_name/version: alien-arena-server__7.66+dfsgconst_num_arrays	 matched_count: 35.316414126299954	 total_count: 35.316414126299954
+library_name/version: alien-arena__7.66+dfsgconst_num_arrays	 matched_count: 35.316414126299954	 total_count: 35.316414126299954
+FEATURE *** const_enum_array	
+RESULT
+ 	 alien-arena_7.66+dfsg-3_mips64el.deb
+string: alien-arena__7.66+dfsg, score: 18022.000000
+string_arrays: no found in DB ..
+const_num_arrays: alien-arena-server__7.66+dfsgconst_num_arrays, ratio: 1.000000
+const_enum_arrays: no found in DB .. 
+
+Repo:	amoeba_1.1-29.1+b1_armhf.deb
+process for analysisFEATURE *** [fn, 1g, 2g, 3g]
+library_name/version: anbox__0.0~git20181014	 score: 420.0	 fn:44	 1g: 46	 2g: 0	 3g: 0
+library_name/version: anbox__0.0~git20190124	 score: 420.0	 fn:44	 1g: 46	 2g: 0	 3g: 0
+library_name/version: amoeba__1.1	 score: 106.0	 fn:2	 1g: 89	 2g: 0	 3g: 0
+FEATURE *** string arrays
+library_name/version: exult__1.2string_arrays	 average score: 0.6886247603487942	 ratio: 12/792
+library_name/version: doris__5.0.3~beta+dfsgstring_arrays	 average score: 0.6581196581196581	 ratio: 16/792
+library_name/version: exult-studio__1.2string_arrays	 average score: 0.6886247603487942	 ratio: 12/792
+library_name/version: doris__4.06~beta2+dfsgstring_arrays	 average score: 0.6581196581196581	 ratio: 16/792
+FEATURE *** const_num_array	
+FEATURE *** const_enum_array	
+RESULT
+ 	 amoeba_1.1-29.1+b1_armhf.deb
+string: anbox__0.0~git20181014, score: 420.000000
+string_arrays: no found in DB ..
+const_num_arrays: no found in DB .. 
+const_enum_arrays: no found in DB .. 
+
+Repo:	amoeba_1.1-29.1+b1_amd64.deb
+process for analysisFEATURE *** [fn, 1g, 2g, 3g]
+library_name/version: anbox__0.0~git20181014	 score: 420.0	 fn:44	 1g: 46	 2g: 0	 3g: 0
+library_name/version: anbox__0.0~git20190124	 score: 420.0	 fn:44	 1g: 46	 2g: 0	 3g: 0
+library_name/version: amoeba__1.1	 score: 106.0	 fn:2	 1g: 89	 2g: 0	 3g: 0

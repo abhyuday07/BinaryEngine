@@ -1,0 +1,49 @@
+Anbox for Debian
+----------------
+
+* Setup
+
+In order to run Android system inside container, you need two kernel
+modules: ashmem_linux and binder_linux. Since Debian kernel 4.17, these
+two modules are enabled. You can find theme at,
+/lib/modules/`uname -r`/kernel/drivers/android/binder_linux.ko and
+/lib/modules/`uname -r`/kernel/drivers/staging/android/ashmem_linux.ko.
+.
+If your kernel doesn't have these two modules, you can follow upstream
+instructions to install them with DKMS. Please see
+<https://github.com/anbox/anbox-modules/>.
+.
+You also need to download the Android image to /var/lib/anbox/android.img
+The pre-build image can be found at <https://build.anbox.io/android-images>.
+.
+Then start the anbox-container-manager.service and the
+anbox-session-manager.service, anbox-session-manager.service is a systemd
+user service.
+.
+Android application can be started from desktop menu.
+
+* Debug
+
+You can launch the anbox process manually with ANBOX_LOG_LEVEL=debug
+environment.
+.
+For example,
+$ env ANBOX_LOG_LEVEL=debug anbox session-manager
+$ env ANBOX_LOG_LEVEL=debug anbox launch --package=org.anbox.appmgr --component=org.anbox.appmgr.AppViewActivity
+.
+/var/lib/anbox/logs/container.log contains the LXC log.
+/var/lib/anbox/logs/console.log contains the console log of Android system,
+however this file is not available currently(LXC 3 needed).
+.
+Android root shell can be gained by running,
+$ sudo /usr/share/anbox/anbox-shell.sh
+Then you can run logcat inside to see the Android logs.
+
+* Misc
+
+1. Anbox may not work with Nvidia graphic drivers. If your meet segmentation
+   fault, please try to uninstall the drivers first.
+2. If you see segfault or other errors from Android, you can try to update
+   Android rootfs image, as it may be fixed by upstream.
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 26 Oct 2018 10:30:00 +0800
